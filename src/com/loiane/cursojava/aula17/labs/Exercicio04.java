@@ -11,7 +11,7 @@ public class Exercicio04 {
     país 'B', mantidas as taxas de crescimento.
      */
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         int populacaoA = 80000;
         int populacaoB = 200000;

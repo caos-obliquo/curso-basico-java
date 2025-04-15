@@ -8,7 +8,7 @@ public class Exercicio08 {
         08 - Faça um programa que leia 5 números e informe a soma e a média dos números.
          */
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         int numero;
         int soma = 0;
@@ -17,7 +17,7 @@ public class Exercicio08 {
 
         for (int i = 1; i <= 5; i++) {
             System.out.println("Número " + i + ":");
-            numero = scanner.nextInt();
+            numero = scan.nextInt();
             soma += numero; //soma = soma + numero
         }
 
