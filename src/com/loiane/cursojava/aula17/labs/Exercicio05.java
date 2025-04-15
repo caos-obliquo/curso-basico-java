@@ -9,7 +9,7 @@ public class Exercicio05 {
     Valide a entrada e permita repetir a operação.
      */
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         int populacaoA = 0;
         int populacaoB = 0;
@@ -21,11 +21,11 @@ public class Exercicio05 {
         do {
             System.out.println("Entre com a população do país 'A': ");
 
-            if (scanner.hasNextInt()) {
-                populacaoA = scanner.nextInt();
+            if (scan.hasNextInt()) {
+                populacaoA = scan.nextInt();
             } else {
                 System.out.println("Entre com um caracter numérico!");
-                scanner.next();
+                scan.next();
                 continue;
             }
 
@@ -40,11 +40,11 @@ public class Exercicio05 {
         do {
             System.out.println("Entre com a taxa da população do país 'A': ");
 
-            if (scanner.hasNextDouble()) {
-                taxaA = scanner.nextDouble();
+            if (scan.hasNextDouble()) {
+                taxaA = scan.nextDouble();
             } else {
                 System.out.println("Entre com um caracter numérico!");
-                scanner.next();
+                scan.next();
                 continue;
             }
 
@@ -59,11 +59,11 @@ public class Exercicio05 {
         do {
             System.out.println("Entre com a população 'B': ");
 
-            if (scanner.hasNextInt()) {
-                populacaoB = scanner.nextInt();
+            if (scan.hasNextInt()) {
+                populacaoB = scan.nextInt();
             } else {
                 System.out.println("Entre com um caracter numérico!");
-                scanner.next();
+                scan.next();
                 continue;
             }
 
@@ -78,11 +78,11 @@ public class Exercicio05 {
         do {
             System.out.println("Entre com a taxa de população do país 'B': ");
 
-            if (scanner.hasNextDouble()) {
-                taxaB = scanner.nextDouble();
+            if (scan.hasNextDouble()) {
+                taxaB = scan.nextDouble();
             } else {
                 System.out.println("Entre com um caracter numérico: ");
-                scanner.next();
+                scan.next();
                 continue;
             }
              if (taxaB > 0) {

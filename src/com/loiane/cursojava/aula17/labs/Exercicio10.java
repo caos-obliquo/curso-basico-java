@@ -17,7 +17,7 @@ public class Exercicio10 {
         System.out.println("Entre com dois números inteiros: ");
         int numero2 = scan.nextInt();
 
-        for (int i = numero1; i <=numero2; i++) {
+        for (int i = numero1; i <= numero2; i++) {
             System.out.println(i);
         }
     }

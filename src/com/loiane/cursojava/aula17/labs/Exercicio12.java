@@ -1,5 +1,7 @@
 package com.loiane.cursojava.aula17.labs;
 
+import java.util.Scanner;
+
 public class Exercicio12 {
     public static void main(String[] args) {
         /*
@@ -13,5 +15,23 @@ public class Exercicio12 {
         ...
         5 * 10 = 50
          */
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Digite um número de 1 a 10: ");
+        int numero = scan.nextInt();
+
+//        validação do número
+        if (numero < 1 || numero >= 10) {
+            System.out.println("Número inválido. Digite um número de 1 a 10: ");
+            return;
+        }
+
+        System.out.println("\n Tabuada do " + numero + ":");
+
+        for (int i = 1; i <= 10; i++) {
+            int resultado = numero * i;
+            System.out.println(numero + " * " + i + " = " + resultado);
+        }
     }
 }
