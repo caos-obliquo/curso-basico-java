@@ -82,8 +82,8 @@ public class Exercicio06 {
             if (!vitoria) {
                 for (int j = 0; j < 3; j++) {
                     if (jogoDaVelha[0][j] == jogadorAtual &&
-                    jogoDaVelha[1][j] == jogadorAtual &&
-                    jogoDaVelha[2][j] == jogadorAtual) {
+                            jogoDaVelha[1][j] == jogadorAtual &&
+                            jogoDaVelha[2][j] == jogadorAtual) {
                         vitoria = true;
                         break;
                     }
@@ -129,4 +129,3 @@ public class Exercicio06 {
         System.out.println("\n Fim de jogo! Obrigado por jogar!!! :3");
     }
 }
-
