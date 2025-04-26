@@ -1,10 +1,11 @@
 package com.loiane.cursojava.aula24.labs;
 
-public class Livro {
+public class LivroLivraria {
 
     String tituloLivro;
     String autor;
     String generoLiterario;
     int numeroPaginas;
     int anoLançamento;
+    double preco;
 }
