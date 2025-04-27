@@ -5,5 +5,15 @@ public class Exercicio01 {
         /*
         01 - Escreva uma classe para representar uma lâmpada. Desenvolva métodos para ligar e desligar a lâmpada.
          */
+
+        Lampada lampada = new Lampada();
+
+        lampada.ligar();
+
+        lampada.mostrarEstado();
+
+        lampada.desligar();
+
+        lampada.mostrarEstado();
     }
 }
