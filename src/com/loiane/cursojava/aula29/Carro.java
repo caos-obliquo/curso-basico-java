@@ -1,4 +1,5 @@
-package com.loiane.cursojava.aula24;
+package com.loiane.cursojava.aula29;
+
 public class Carro {
     // classes - Aula 24
     String marca;
@@ -30,3 +31,4 @@ public class Carro {
 
     }
 }
+

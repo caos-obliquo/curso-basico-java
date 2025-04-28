@@ -65,7 +65,7 @@ public class Exercicio06 {
             jogoDaVelha[linha][coluna] = jogadorAtual;
             jogadas++;
 
-            // verificando se o jogador atual jogoAcabou
+            // verificando se o jogador atual ganhou
             boolean vitoria = false;
 
             // verificando as linhas
