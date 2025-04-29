@@ -8,13 +8,28 @@ public class Carro {
     double capacidadeCombustivel;
     double consumoCombustivel;
 
-    // método_simples - Aula 25
+    // construtores
+    Carro() {
+
+        System.out.println("Classe carro foi instanciada.");
+        numeroDePassageiros = 4;
+    }
+
+    Carro(String marca_, String modelo_, int numeroDePassageiros_, double capacidadeCombustivel_,
+          double consumoCombustivel_) {
+
+        marca = marca_;
+        modelo = modelo_;
+        numeroDePassageiros = numeroDePassageiros_;
+        capacidadeCombustivel = capacidadeCombustivel_;
+        consumoCombustivel = consumoCombustivel_;
+    }
+
     void exibirAutonomia() {
 
         System.out.println("A autonomia do carro é: " + capacidadeCombustivel * consumoCombustivel + "km");
     }
 
-    // método_com_retorno - Aula 26
     double obterAutonomia() {
 
         System.out.println("Método obterAutonomia foi chamado.");
@@ -22,7 +37,6 @@ public class Carro {
         return capacidadeCombustivel * consumoCombustivel;
     }
 
-    // método_com_parâmetros - Aula 27
     double calculaCombustivel(double km) {
 
         double quantidadeCombustivel = km / consumoCombustivel;
