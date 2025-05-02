@@ -7,6 +7,6 @@ public class TesteCarroAlt {
 
         Carro carro = new Carro();
         carro.marca = "Fiat";
-        carro.consumoCombustivel = 1;
+//        carro.consumoCombustivel = 1;
     }
 }
