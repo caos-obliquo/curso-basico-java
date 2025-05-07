@@ -116,6 +116,7 @@ public class Exercicio06 {
 
             System.out.println("\nTabuleiro Final:");
             System.out.println("-------------");
+
             for (int l = 0; l < 3; l++) {
                 System.out.print("| ");
                 for (int c = 0; c < 3; c++) {
@@ -129,3 +130,4 @@ public class Exercicio06 {
         System.out.println("\n Fim de jogo! Obrigado por jogar!!! :3");
     }
 }
+

@@ -2,6 +2,7 @@ package com.loiane.cursojava.aula33;
 
 public class MinhaCalculadora {
 
+    // overload
     public int soma(int numero1, int numero2) {
 
         return numero1 + numero2;
