@@ -8,7 +8,6 @@ public class Exercicio02 {
         realizar saques), depositar dinheiro, consultar saldo e verificar se o cliente está usando cheque especial ou
         não. Desenvolva um programa para testar essa classe.
          */
-
         ContaCorrente conta = new ContaCorrente();
 
         conta.numero = "123456";
