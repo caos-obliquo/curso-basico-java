@@ -11,7 +11,7 @@ public class TesteCalculadora {
 
         // MinhaCalculadora calculadora = new MinhaCalculadora();
 
-        // calculadora.soma(1, 2);
+        // calculadora.somar(1, 2);
 
         soma2Valores(1, 2);
 

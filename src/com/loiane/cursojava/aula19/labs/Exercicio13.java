@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio13 {
     public static void main(String[] args) {
         /*
-        13 - Criar um vetor A com 10 elementos inteiros. Implementar um programa que determine a soma dos elementos
+        13 - Criar um vetor A com 10 elementos inteiros. Implementar um programa que determine a somar dos elementos
         armazenados neste vetor que são múltiplos de 5.
          */
 

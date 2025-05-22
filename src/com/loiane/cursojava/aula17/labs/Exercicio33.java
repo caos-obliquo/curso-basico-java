@@ -8,7 +8,7 @@ public class Exercicio33 {
         33 - Faça um programa que mostre os n termos da série a seguir:
         S = 1/1 + 2/2 + 3/5 + 4/7 + 5/9 + ... + N/M.
 
-        Imprima no final a soma da série.
+        Imprima no final a somar da série.
          */
 
         Scanner scan = new Scanner(System.in);

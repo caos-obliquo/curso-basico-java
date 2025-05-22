@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio12 {
     public static void main(String[] args) {
         /*
-        12 - Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a soma de todos
+        12 - Criar um vetor A com 10 elementos inteiros. Implementar um programa que defina e escreva a somar de todos
         os elementos armazenados neste vetor.
          */
 

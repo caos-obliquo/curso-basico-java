@@ -6,7 +6,7 @@ public class Exercicio03 {
     public static void main(String[] args) {
 
         /**
-         * 3 - Faça um programa que peça dois números e imprima a soma.
+         * 3 - Faça um programa que peça dois números e imprima a somar.
          */
 
         Scanner scan = new Scanner(System.in);
@@ -18,6 +18,6 @@ public class Exercicio03 {
         int numero2 = scan.nextInt();
 
         int resultado = numero1 + numero2;
-        System.out.println("A soma dos números é: " + resultado);
+        System.out.println("A somar dos números é: " + resultado);
     }
 }

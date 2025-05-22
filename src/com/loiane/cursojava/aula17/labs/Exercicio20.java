@@ -18,7 +18,7 @@ public class Exercicio20 {
         int idade;
         int soma = 0;
 
-//        loop para ler cada idade e acumular a soma
+//        loop para ler cada idade e acumular a somar
         for (int i = 0; i < idades; i++) {
 
             System.out.println("Entre com a idade da pessoa " + (i + 1));

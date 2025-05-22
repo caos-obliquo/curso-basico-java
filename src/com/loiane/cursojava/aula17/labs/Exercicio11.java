@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio11 {
     public static void main(String[] args) {
         /*
-        11 - Altere o programa anterior para mostrar no final a soma dos números.
+        11 - Altere o programa anterior para mostrar no final a somar dos números.
          */
 
         Scanner scan = new Scanner(System.in);

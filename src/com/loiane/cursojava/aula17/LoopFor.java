@@ -27,7 +27,7 @@ public class LoopFor {
 
         int soma = 0;
         for (int i = 0; i < 5; soma+= i++);
-        System.out.println("o valor da soma é " + soma);
+        System.out.println("o valor da somar é " + soma);
 
         for (int i = 0; i < 5; i++)
             System.out.println("i tem valor :" + i);

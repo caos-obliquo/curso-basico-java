@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio08 {
     public static void main(String[] args) {
         /*
-        08 - Faça um programa que leia 5 números e informe a soma e a média dos números.
+        08 - Faça um programa que leia 5 números e informe a somar e a média dos números.
          */
 
         Scanner scan = new Scanner(System.in);
@@ -18,7 +18,7 @@ public class Exercicio08 {
         for (int i = 1; i <= 5; i++) {
             System.out.println("Número " + i + ":");
             numero = scan.nextInt();
-            soma += numero; //soma = soma + numero
+            soma += numero; //somar = somar + numero
         }
 
         float media = (float) soma / 5;

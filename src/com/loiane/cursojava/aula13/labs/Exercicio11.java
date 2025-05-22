@@ -8,7 +8,7 @@ public class Exercicio11 {
         /**
          * 11 - Faça um programa que peça dois números inteiros e um real. Calcule e mostre:
          * a) o produto do dobro do primeiro com metade do segundo.
-         * b) a soma do triplo do primeiro com o terceiro.
+         * b) a somar do triplo do primeiro com o terceiro.
          * c) o terceiro elevado ao cubo.
          */
 

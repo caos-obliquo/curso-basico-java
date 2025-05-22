@@ -3,10 +3,10 @@ package com.loiane.cursojava.aula20;
 public class MatrizTridimensional {
     public static void main(String[] args) {
         /*
-        Faça um programa que crie uma matriz 3x3x3 onde cada elemento da matriz seja igual a soma dos seus índices
+        Faça um programa que crie uma matriz 3x3x3 onde cada elemento da matriz seja igual a somar dos seus índices
         (exemplo: M[1, 2, 1] = 1 + 2 + 1 = 4).
-        Obtenha a soma de todos os elementos da matriz, e obtenha a soma dos elementos cujos valores são pares e a soma
-        dos elementos cujos valores são ímpares. Exibir na tela os valores da soma total, soma dos pares e soma dos
+        Obtenha a somar de todos os elementos da matriz, e obtenha a somar dos elementos cujos valores são pares e a somar
+        dos elementos cujos valores são ímpares. Exibir na tela os valores da somar total, somar dos pares e somar dos
         ímpares.
         */
 
