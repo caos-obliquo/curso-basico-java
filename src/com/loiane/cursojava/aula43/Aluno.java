@@ -78,7 +78,7 @@ public class Aluno {
                 '}'; */
 
     // Comando Alt + Insert.
-    // Alterando a formatação do construtor generado 'equals'.
+    // Alterando a formatação do construtor gerado 'equals'.
     @Override
     public boolean equals(Object o) {
         if (this == o)
