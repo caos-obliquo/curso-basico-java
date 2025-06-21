@@ -10,10 +10,10 @@ public class MultiplosCatch {
             try {
                 System.out.println(numeros[i] + "/" + denominadores[i] + " = " + (numeros[i] / denominadores[i]));
             }
-            catch (ArithmeticException e1) {
+            catch (ArithmeticException e) {
                 System.out.println("Erro ao dividir por zero");
             }
-            catch (ArrayIndexOutOfBoundsException e2) {
+            catch (ArrayIndexOutOfBoundsException e) {
                 System.out.println("Posição do array inválida");
             }
         }

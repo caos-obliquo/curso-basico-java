@@ -1,6 +1,6 @@
 package com.loiane.cursojava.aula48;
 
-public class MultiploCatchGenerico {
+public class MultiplosCatchGenerico {
     public static void main(String[] args) {
 
         int[] numeros = {4, 8, 16, 32, 64, 128};
@@ -10,7 +10,7 @@ public class MultiploCatchGenerico {
             try {
                 System.out.println(numeros[i] + "/" + denominadores[i] + " = " + (numeros[i] / denominadores[i]));
             }
-            catch (ArithmeticException e1) {
+            catch (ArithmeticException e) {
                 System.out.println("Erro ao dividir por zero");
             }
             // Após adicionar o 'Throwable', ele deixou de capturar o erro 'ArrayIndexOutOfBoundsException'.
