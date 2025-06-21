@@ -1,6 +1,6 @@
 package com.loiane.cursojava.aula48;
 
-public class MultiplosCatchJava7 {
+public class MultiplosCatchJava {
     public static void main(String[] args) {
 
         int[] numeros = {4, 8, 16, 32, 64, 128};
