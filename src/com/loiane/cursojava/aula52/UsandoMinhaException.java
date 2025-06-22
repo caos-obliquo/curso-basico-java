@@ -42,5 +42,4 @@ public class UsandoMinhaException {
             throw new ArithmeticException("Divisao por zero");
         }
     }
-
 }
