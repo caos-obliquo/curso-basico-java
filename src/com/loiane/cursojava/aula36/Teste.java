@@ -37,7 +37,7 @@ public class Teste {
         // contato.setTelefone(telefone);
         contato.setTelefones(telefones);
 
-        // teste saída no console
+        // realizarDivisoes saída no console
         System.out.println(contato.getNome());
         // System.out.println(contato.getTelefone());
 
