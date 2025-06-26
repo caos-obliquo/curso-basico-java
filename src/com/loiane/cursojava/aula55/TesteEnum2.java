@@ -16,7 +16,6 @@ public class TesteEnum2 {
 
         // Armazena o valor convertido em uma variável
         DiaSemana dia = Enum.valueOf(DiaSemana.class, "DOMINGO");
-
         System.out.println(dia);
     }
 }
