@@ -1,6 +1,14 @@
 package com.loiane.cursojava.aula53;
 
 public class Teste {
+    // Classes de teste para demonstrar:
+    // 1 - Uso de constantes (int) vs enums.
+    // 2 - Sobrecarga de métodos (overloading) com tipos diferentes.
+    // 3 - Switch statements com enums e inteiros.
+
+    // Boa prática:
+    // Use enums para representar conjuntos fixos de valores (como dias da semana, estados e etc).
+    // Evite constantes "solutas" quando possível.
     public static void main(String[] args) {
 
         usandoConstantes();
@@ -31,7 +39,8 @@ public class Teste {
     }
 
     private static void imprimeDiaSemana(int dia) {
-
+        // Demonstra uso de constantes para representar os dias da semana.
+        // O problema é que os números são "mágicos" (não há garantia de que 1 sempre será segunda-feira).
         switch (dia) {
             case 1:
                 System.out.println("Segunda-feira");
@@ -58,7 +67,8 @@ public class Teste {
     }
 
     private static void usandoEnum() {
-
+        // Demonstra o uso de enums para representar os dias da semana.
+        // A vantagem é que o compilador garante que apenas valores válidos estão sendo usados.
         DiaSemana segunda = DiaSemana.SEGUNDA;
         DiaSemana terca = DiaSemana.TERCA;
         DiaSemana quarta = DiaSemana.QUARTA;
@@ -68,7 +78,7 @@ public class Teste {
         DiaSemana domingo = DiaSemana.DOMINGO;
 
         System.out.println("Teste utilizando enum no Java");
-        imprimeDiaSemana(segunda);
+        imprimeDiaSemana(segunda); // Chama métodos para enum (overloading).
         imprimeDiaSemana(terca);
         imprimeDiaSemana(quarta);
         imprimeDiaSemana(quinta);
