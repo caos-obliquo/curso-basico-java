@@ -51,7 +51,7 @@ public class Exercicio01 {
             System.out.println("Contato encontrado:");
             System.out.println(contato);
         } catch (ContatoNaoExisteException e) {
-            System.out.println(e.getMessage());
+            System.out.printf("Contato %s não encontrado!%n", nomeContato);
         }
     }
 

@@ -18,12 +18,17 @@ public class Agenda {
     }
 
     public Contato consultarContatoPorNome(String nome) throws ContatoNaoExisteException {
+        Contato contato = null;
         for (int i = 0; i < tamanho; i++) {
             if (contatos[i].getNome().equalsIgnoreCase(nome)) {
-                return contatos[i];
+                contato = contatos[i];
             }
         }
-        throw new ContatoNaoExisteException(nome);
+        if (contato == null) {
+            throw new ContatoNaoExisteException(nome);
+        }
+
+        return contato;
     }
 
     @Override
